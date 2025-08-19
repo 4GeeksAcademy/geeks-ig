@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+  margin-top: 5%;
+}
+
+/* estilos para el header de la card */
+
+header,
+main,
+footer {
+  background-color: #fff;
+}
+
+header {
+  width: 30%;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+
+.img-html {
+  width: 2rem;
+}
+
+.title-subtitle-img {
+  display: flex;
+}
+
+.title-subtitle p {
+  font-size: 14px;
+}
+
+.header-ig {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.moreInfo {
+  display: flex;
+  align-items: center;
+}
+
+/* estilos para el main de la card */
+
+main {
+  width: 30%;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+
+.img-principal img {
+  width: 100%;
+  height: 350px;
+}
+
+/* estilos para el footer de la card */
+
+footer {
+  width: 30%;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+
+.fav-msg-send-guar {
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pLikes {
+  margin: 0.8rem;
+  font-size: 14.5px;
+}
+
+.pDescription {
+  margin: 0.8rem;
+  font-size: 14.5px;
+}
